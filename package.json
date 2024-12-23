@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ashwinidkatkar19.github.io/my-portfolio",  // Replace with your GitHub username and repository name
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -12,6 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",  // This will build the app before deployment
+    "deploy": "gh-pages -d build",  // This will deploy the built app to GitHub Pages
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,16 +38,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0"  // Required for GitHub Pages deployment
   }
-}
-
-"homepage": "https://[your-username].github.io/[your-repo-name]",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
 }
