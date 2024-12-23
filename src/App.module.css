@@ -1,0 +1,65 @@
+/* App.module.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Add responsive breakpoints */
+  @media (max-width: 768px) {
+    .App {
+      font-size: 14px;
+    }
+  
+    header nav ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header nav ul li {
+      margin: 10px 0;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 15px;
+    }
+  
+    .footer p, .header p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1, h2 {
+      font-size: 24px;
+    }
+  
+    .header {
+      padding: 10px;
+    }
+  
+    header nav ul li {
+      margin: 5px 0;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
