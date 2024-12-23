@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashwinidkatkar19.github.io/my-portfolio",  // Replace with your GitHub username and repository name
+  "homepage": "https://ashwinidkatkar19.github.io/my-portfolio",  
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -13,8 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",  /* This will build the app before deployment */
-    "deploy": "gh-pages -d build",  /* This will deploy the built app to GitHub Pages */
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d build",  
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
