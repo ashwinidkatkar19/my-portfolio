@@ -13,8 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",  // This will build the app before deployment
-    "deploy": "gh-pages -d build",  // This will deploy the built app to GitHub Pages
+    "predeploy": "npm run build",  /* This will build the app before deployment */
+    "deploy": "gh-pages -d build",  /* This will deploy the built app to GitHub Pages */
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
